@@ -123,4 +123,12 @@ public class User {
         return "User{" + "id=" + id + ", name=" + name + ", password=" + password + ", phonenumber=" + phonenumber + ", address=" + address + ", landmark=" + landmark + ", city=" + city + ", state=" + state + ", pincode=" + pincode + ", email=" + email + '}';
     }
 
+    public String toString1() {
+        return "User{" + "id=" + id + ", name=" + name + ", password=" + password + ", phonenumber=" + phonenumber + ", address=" + address + ", landmark=" + landmark + ", city=" + city + ", state=" + state + ", pincode=" + pincode + ", email=" + email + '}';
+    }
+
+    public String toString2() {
+        return "User{" + "id=" + id + ", name=" + name + ", password=" + password + ", phonenumber=" + phonenumber + ", address=" + address + ", landmark=" + landmark + ", city=" + city + ", state=" + state + ", pincode=" + pincode + ", email=" + email + '}';
+    }
+
 }
